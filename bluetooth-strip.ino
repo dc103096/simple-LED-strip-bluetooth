@@ -290,9 +290,9 @@ void loop() {
 
 /*-------------*/
   if (display_mode == "Color") {
-    if (display_side = "RGB") {
+    if (display_side == "RGB") {
       leds(0, LED_num) = CRGB(R, G, B);
-    } else if (display_side = "HSV") {
+    } else if (display_side == "HSV") {
       leds(0, LED_num) = CHSV(H, S, V);
     }
   } else if (display_mode == "Animated") {
